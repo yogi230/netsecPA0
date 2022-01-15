@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>netsecPA0</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <style>
+    .inner-div {
+      margin: 5px;
+    }
+
+    .titleText {
+      font-weight: bolder;
+      font-size: large;
+    }
+
+    .textarea {
+      border: 2px solid black;
+      font-size: large;
+      font-weight: bold;
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/9c1a0db649.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+  <div class="d-flex justify-content-center flex-row bd-highlight mb-3">
+    <div class="inner-div">
+      <p class="titleText text-center fs-3">Plain Text</p>
+      <textarea id="plainArea" cols="40" rows="10" placeholder="your plain text here..."
+        class="textarea rounded border border-3 border-dark border-end shadow-lg bg-body"></textarea>
+    </div>
+    <span style="font-size: larger; margin-top:12%; margin-left:3%; margin-right:3%; color:black;">
+      <i class="fas fa-exchange-alt  fa-lg"></i></span>
+    <div class="inner-div">
+      <p class="titleText text-center fs-3">Cipher Text</p>
+      <textarea id="cipherArea" cols="40" rows="10" placeholder="your cipher text here..."
+        class="textarea rounded border border-3 border-dark border-end shadow-lg bg-body"></textarea>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
